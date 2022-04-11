@@ -27,6 +27,7 @@
 .header{
     height: 100px;
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
     align-items: center;
 }
@@ -37,12 +38,16 @@
     line-height: 30.52px;
 }
 
-.menu {
-    
+nav {
+    width: 293px;
+    display: flex;
+    justify-content: space-between;  
 }
 
 .datoscontacto {
-    display: inline-block;
+    width: 303px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .servicerequest{
@@ -139,11 +144,7 @@ body{
 
 
 .main{
-    width: 615px;
-    height: 54px;
-    display: flex;
-    align-content: center;
-    
+   
 }
 
 .filterbox :hover{
