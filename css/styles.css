@@ -141,16 +141,17 @@ body{
     padding: 0;
 }
 
-
-
-.main{
-   
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .filterbox :hover{
     color: var(--colorbotonesfiltro);
     background: var(--colortextoresaltado);
-    cursor: pointer;
+    cursor: pointer;    
 }
 
 .projects {
