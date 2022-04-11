@@ -1,0 +1,197 @@
+:root{
+    --colortextotitulos: #212121;
+    --colortextoparrafos: #757575;
+    --colortextoresaltado: #2196F3;
+    --colorbotonesfiltro: #F5F4FA;
+    --footerbackgroundcolor: #2F303A;
+    --negativecolor: white;
+    --tamañofuentea: 14px;  
+    --tamañofuenteb: 16px;
+    --tamañofuentec: 18px;
+    --grosorfuentea: 400;
+    --grosorfuenteb: 500;
+    --grosorfuentec: 600;
+    --interlineadoa: 16.41px;
+    --interlineadob: 24px;
+    --interlineadoc: 26px;
+    --interlineadod: 30px;
+    --interlineadoe: 36px;
+}
+
+.container{
+    width: 1600;
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    color: var(--colortextoresaltado);
+    font-family: 'Raleway', sans-serif;
+    line-height: 30.52px;
+}
+
+.menu {
+    
+}
+
+.datoscontacto {
+    display: inline-block;
+}
+
+.servicerequest{
+    height: 600px;
+    background: #2F303A;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: var(--negativecolor);
+}
+
+.serviceadvantages{
+    height: 284px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.experticebox{
+    display: flex;
+    justify-content: center;
+}
+
+.experticetitle{
+    display: flex;
+    justify-content: center;
+}
+
+.expertice{
+    width: 1180.16px;
+    height: 425px;
+    top: 1026px;
+    left: 215px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.experticeimages{
+    display: flex;
+    justify-content: space-between;    
+}
+
+.teambox{
+    height: 648px;
+    background: var(--colorbotonesfiltro);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.team{
+    display: flex;
+    flex-direction: column;
+}
+
+.teamtitle{
+    display: flex;
+    justify-content: center;
+}
+
+.presentation{
+    display: flex;
+    justify-content: center;
+   
+}
+
+a{
+    text-decoration: none;
+    color: var(--colortextotitulos);
+    font-weight: var(--grosorfuenteb);
+    font-size: var(--tamañofuentea);
+    line-height: var(--interlineadoa);
+    cursor: pointer;
+}
+
+a:hover{
+    color:var(--colortextoresaltado);
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    color: var(--colortextoparrafos);
+    font-weight: var(--grosorfuentea);
+    font-size: var(--tamañofuenteb);
+    line-height: var(--interlineadod);
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.main{
+    width: 615px;
+    height: 54px;
+    display: flex;
+    align-content: center;
+    
+}
+
+.filterbox :hover{
+    color: var(--colorbotonesfiltro);
+    background: var(--colortextoresaltado);
+    cursor: pointer;
+}
+
+.projects {
+    display: flex;
+}
+
+.link{
+    background: var(--colorbotonesfiltro);
+    color: var(--colortextotitulos);
+    font-weight: var(--grosorfuenteb);
+    font-size: var(--tamañofuenteb);
+    line-height: var(--interlineadoc);
+    outline: none;
+    border: none;
+    border-radius: 4px;
+}
+
+h3{
+    color: var(--colortextotitulos);
+    font-weight: var(--tamañofuentec);
+    line-height: var(--interlineadoe);
+}
+
+.footerbox{
+    height: 252px;
+    left: 0px;
+    top: 2097px;
+    background-color: #2F303A;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer{
+
+}
+
+.contactfooter{
+    color: white;
+    font-size: var(--tamañofuentea);
+    line-height: var(--interlineadob);
+    width: 231px;
+    height: 92px;
+}
+
